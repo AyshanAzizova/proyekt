@@ -1,0 +1,42 @@
+#modal {
+    text-align: end;
+}
+
+#modal .slider-container {
+    position: relative;
+    overflow: hidden;
+}
+#modal .slides {
+    display: flex;
+}
+#modal .slide {
+    min-width: 100%;
+    height: 640px;
+    box-sizing: border-box;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal .active {
+    background-color: black;
+}
+
+#modal .prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+#modal .prev {
+    left: 10px;
+}
+#modal .next {
+    right: 10px;
+}
+#modal .slider img{
+    width: 100px;
+    height: 100px;
+}
